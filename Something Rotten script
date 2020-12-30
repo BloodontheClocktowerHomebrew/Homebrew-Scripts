@@ -1,4 +1,10 @@
-[{
+[
+{
+        "id": "_meta",
+        "name": "Something Rotten",
+        "author": "subdog and Sionar"
+      },
+  {
     "id": "Majesty",
     "image": "https://i.postimg.cc/SQHkvDv7/Majesty.png",
     "edition": "custom",
@@ -380,7 +386,7 @@
 
   
   {
-    "id": "Rules",
+    "id": "Something Rotten",
     "image": "https://i.postimg.cc/SQHkvDv7/Majesty.png",
     "edition": "custom",
     "firstNight": 0,
