@@ -1,4 +1,10 @@
-[{
+[
+{
+  "id": "Script 2",
+  "name": "Struggle on Orbital Station Delta",
+  "author": "Essler"
+},
+{
     "id": "Captain",
     "image": "https://i.postimg.cc/pLb82xLx/captain-good.png",
     "edition": "custom",
