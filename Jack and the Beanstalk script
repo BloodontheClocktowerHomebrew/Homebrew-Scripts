@@ -1,9 +1,9 @@
 [
   {
-    "id": "_meta",
+    "id": "jntb",
     "name": "Jack and the Beanstalk",
     "author": "lemon",
-    "logo": "https://url.to/your/logo.png"
+    "logo": "https://i.ibb.co/TqN76zG/Jack-and-the-Beanstalk-Logo.png"
   },
   {
     "id": "tapster",
@@ -18,7 +18,7 @@
     "setup": false,
     "name": "Tapster",
     "team": "townsfolk",
-    "ability": "Each night, choose a player: you learn how many of their neighbors are their alignment."
+    "ability": "Each night, choose a player (not yourself): you learn how many of their neighbors are their alignment."
   },
   {
     "id": "wallflower",
@@ -66,6 +66,21 @@
     "ability": "Each night*, choose a player to sell magic beans. If they accept the trade, they lose their ability until dusk and can't die until they regain it."
   },
   {
+    "id": "explorer",
+    "image": "https://i.ibb.co/bzg4wyn/icon-explorer-formatted.png",
+    "edition": "jackandthebeanstalk",
+    "firstNight": 9,
+    "firstNightReminder": "",
+    "otherNight": 13,
+    "otherNightReminder": "",
+    "reminders": ["Expedition"],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Explorer",
+    "team": "townsfolk",
+    "ability": "Each night, choose a number: your expedition token travels clockwise or counterclockwise that many steps. Each day, you may visit the Storyteller and learn a fact about the player your token is on."
+  },
+  {
     "id": "pigeoneer",
     "image": "https://i.ibb.co/y6zdPm6/icon-pigeoneer-formatted.png",
     "edition": "jackandthebeanstalk",
@@ -93,22 +108,7 @@
     "setup": false,
     "name": "Curist",
     "team": "townsfolk",
-    "ability": "Each day, you may visit the storyteller, choose a player, and answer a question. If correct they are healthy, sober, & gets true info until dawn. If incorrect they are drunk until dawn."
-  },
-  {
-    "id": "explorer",
-    "image": "https://i.ibb.co/bzg4wyn/icon-explorer-formatted.png",
-    "edition": "jackandthebeanstalk",
-    "firstNight": 0,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": ["Location"],
-    "remindersGlobal": [],
-    "setup": false,
-    "name": "Explorer",
-    "team": "townsfolk",
-    "ability": "Each day, you may visit the storyteller and say how many steps you travel. The storyteller secretly picks clockwise or counterclockwise and gives you a fact about who you land on."
+    "ability": "Each day, you may visit the storyteller, choose a player, and answer a question. If correct they are healthy, sober, & get true info until dawn. If incorrect they are drunk until dawn (if good)."
   },
   {
     "id": "knight",
@@ -131,7 +131,7 @@
     "edition": "jackandthebeanstalk",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 13,
+    "otherNight": 10,
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [],
@@ -146,20 +146,20 @@
     "edition": "jackandthebeanstalk",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 12,
+    "otherNight": 11,
     "otherNightReminder": "",
     "reminders": ["Died"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Snoop",
     "team": "townsfolk",
-    "ability": "When one of your neighbors dies, you learn their character type tonight."
+    "ability": "When one of your living neighbors dies, you learn their character type tonight."
   },
   {
     "id": "envoy",
     "image": "https://i.ibb.co/y5rFGdL/icon-envoy-formatted.png",
     "edition": "jackandthebeanstalk",
-    "firstNight": 5,
+    "firstNight": 6,
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
@@ -189,7 +189,7 @@
     "id": "jack",
     "image": "https://i.ibb.co/BLRWgnQ/icon-jack-formatted.png",
     "edition": "jackandthebeanstalk",
-    "firstNight": 6,
+    "firstNight": 7,
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
@@ -201,34 +201,49 @@
     "ability": "The Demon knows that Jack is in play. You and the Demon die at the end of the fifth day."
   },
   {
+    "id": "cursedhoard",
+    "image": "https://i.ibb.co/M1f7MFg/icon-cursed-hoard-formatted.png",
+    "edition": "jackandthebeanstalk",
+    "firstNight": 8,
+    "firstNightReminder": "",
+    "otherNight": 12,
+    "otherNightReminder": "",
+    "reminders": ["Chosen", "Poisoned"],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Cursed Hoard",
+    "team": "outsider",
+    "ability": "Each night, choose a player. If you die, each evil player you haven't chosen poisons one of their living neighbors until dawn."
+  },
+  {
     "id": "goldengoose",
     "image": "https://i.ibb.co/Nj67Y2J/icon-golden-goose-formatted.png",
     "edition": "jackandthebeanstalk",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 1,
+    "otherNight": 0,
     "otherNightReminder": "",
     "reminders": ["Golden egg"],
     "remindersGlobal": [],
     "setup": false,
     "name": "Golden Goose",
     "team": "outsider",
-    "ability": "Each night*, choose a living player (different from last night) to hold the golden egg. Minions who hold the egg have doubled abilities (and know this)."
+    "ability": "Once per day, a Minion can visit the Storyteller and guess who the Golden Goose is. If they guess you, they learn your character and their ability is doubled tonight."
   },
   {
-    "id": "foolsgold",
-    "image": "https://i.ibb.co/P5rK7X6/icon-fool-s-gold-formatted.png",
+    "id": "magicharp",
+    "image": "https://i.ibb.co/YfJDMyq/icon-magic-harp-formatted.png",
     "edition": "jackandthebeanstalk",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 3,
+    "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Poisoned"],
+    "reminders": [],
     "remindersGlobal": [],
     "setup": false,
-    "name": "Fool's Gold",
+    "name": "Magic Harp",
     "team": "outsider",
-    "ability": "Each night*, a Townsfolk who spoke privately with someone other than their neighbors yesterday is poisoned until dawn."
+    "ability": "If you die by execution, a living good player becomes evil."
   },
   {
     "id": "prizejewel",
@@ -238,48 +253,33 @@
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Chosen"],
+    "reminders": [],
     "remindersGlobal": [],
     "setup": false,
     "name": "Prize Jewel",
     "team": "outsider",
-    "ability": "Each day, you must visit the storyteller and choose one of your living neighbors: they might register falsely tonight."
+    "ability": "When you are alive, you might register falsely at night. When you are dead, your living neighbors might register falsely at night."
   },
   {
-    "id": "magicharp",
-    "image": "https://i.ibb.co/YfJDMyq/icon-magic-harp-formatted.png",
-    "edition": "jackandthebeanstalk",
-    "firstNight": 7,
-    "firstNightReminder": "",
-    "otherNight": 0,
-    "otherNightReminder": "",
-    "reminders": [],
-    "remindersGlobal": [],
-    "setup": false,
-    "name": "Magic Harp",
-    "team": "outsider",
-    "ability": "The demon knows you. If you are executed, the player who nominated you dies."
-  },
-  {
-    "id": "kindling",
+    "id": "tallower",
     "image": "https://i.ibb.co/ctvg08q/icon-kindling-formatted.png",
     "edition": "jackandthebeanstalk",
-    "firstNight": 9,
+    "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 7,
+    "otherNight": 3,
     "otherNightReminder": "",
-    "reminders": ["Chosen"],
+    "reminders": ["Exposed", "Poisoned day 1", "Poisoned day 2"],
     "remindersGlobal": [],
     "setup": false,
-    "name": "Kindling",
+    "name": "Tallower",
     "team": "minion",
-    "ability": "Each night, choose two good players: if they speak privately tomorrow, the next information either learns about the other might be false."
+    "ability": "Each night*, a Townsfolk who spoke privately with any player other than their neighbors yesterday is poisoned for two nights and two days."
   },
   {
     "id": "trickster",
     "image": "https://i.ibb.co/wYHgYJS/icon-trickster-formatted.png",
     "edition": "jackandthebeanstalk",
-    "firstNight": 4,
+    "firstNight": 5,
     "firstNightReminder": "",
     "otherNight": 2,
     "otherNightReminder": "",
@@ -289,21 +289,6 @@
     "name": "Trickster",
     "team": "minion",
     "ability": "Each night, choose a good character: you have that character's ability until dusk. Players with that character lose the ability while you have it."
-  },
-  {
-    "id": "fibonacci",
-    "image": "https://i.ibb.co/Z6ctyrS/icon-fibonacci-formatted.png",
-    "edition": "jackandthebeanstalk",
-    "firstNight": 8,
-    "firstNightReminder": "",
-    "otherNight": 6,
-    "otherNightReminder": "",
-    "reminders": ["Left", "Right", "Charging"],
-    "remindersGlobal": [],
-    "setup": false,
-    "name": "Fibonacci",
-    "team": "minion",
-    "ability": "Every other night, choose a direction: left or right. Players don't count as having neighbors in that direction until dusk."
   },
   {
     "id": "miser",
@@ -321,19 +306,34 @@
     "ability": "When an Outsider dies, one of their good neighbors becomes an out-of-play Outsider. [Minimum 1 Outsider]"
   },
   {
+    "id": "mistral",
+    "image": "https://i.ibb.co/tzM5pfp/icon-mistral-formatted.png",
+    "edition": "jackandthebeanstalk",
+    "firstNight": 4,
+    "firstNightReminder": "",
+    "otherNight": 1,
+    "otherNightReminder": "",
+    "reminders": ["Redirecting"],
+    "remindersGlobal": [],
+    "setup": false,
+    "name": "Mistral",
+    "team": "minion",
+    "ability": "Each night, choose a player: until dawn, players that choose them or abilities that effect them might be redirected to someone else."
+  },
+  {
     "id": "lefthead",
     "image": "https://i.ibb.co/bXzf9KT/icon-left-head-formatted.png",
     "edition": "jackandthebeanstalk",
     "firstNight": 2,
     "firstNightReminder": "",
-    "otherNight": 10,
+    "otherNight": 8,
     "otherNightReminder": "",
     "reminders": ["Dead"],
     "remindersGlobal": [],
     "setup": true,
     "name": "Left Head",
     "team": "demon",
-    "ability": "During the first night, the neighbor to your right becomes the Right Head. Each night*, meet (if alive) and choose a single player: they die. [-1 Minion]"
+    "ability": "During the first night, your counterclockwise neighbor becomes the evil Right Head. Each night*, meet (if alive) and choose a single player: they die. [-1 Minion]"
   },
   {
     "id": "righthead",
@@ -341,14 +341,14 @@
     "edition": "jackandthebeanstalk",
     "firstNight": 2,
     "firstNightReminder": "",
-    "otherNight": 11,
+    "otherNight": 8,
     "otherNightReminder": "",
     "reminders": ["Dead"],
     "remindersGlobal": [],
     "setup": true,
     "name": "Right Head",
     "team": "demon",
-    "ability": "During the first night, the neighbor to your left becomes the Left Head. Each night*, meet (if alive) and choose a single player: they die. [-1 Minion]"
+    "ability": "During the first night, your clockwise neighbor becomes the evil Left Head. Each night*, meet (if alive) and choose a single player: they die. [-1 Minion]"
   },
   {
     "id": "colossus",
@@ -356,14 +356,14 @@
     "edition": "jackandthebeanstalk",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 11,
+    "otherNight": 9,
     "otherNightReminder": "",
-    "reminders": ["Dead"],
+    "reminders": ["Dead", "Powerless"],
     "remindersGlobal": [],
-    "setup": false,
+    "setup": true,
     "name": "Colossus",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die. If you are executed with less votes than the number of living players, you don't die."
+    "ability": "Each night*, choose a player: they die. If you are executed with less votes than the number of living players, you don't die. Dead Minions' neighbors can't spend voting tokens against you. [-1 Outsider]"
   },
   {
     "id": "bonebaker",
@@ -371,14 +371,14 @@
     "edition": "jackandthebeanstalk",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 8,
+    "otherNight": 7,
     "otherNightReminder": "",
     "reminders": ["Dead", "Poisoned", "Can not die"],
     "remindersGlobal": [],
-    "setup": true,
+    "setup": false,
     "name": "Bone-Baker",
     "team": "demon",
-    "ability": "Each night*, choose a player: they die, and if they do one of their neighbors is poisoned until dusk and the other can't die until dusk. [-1 Outsider]."
+    "ability": "Each night*, choose a player: they die, and if they do one of their neighbors is poisoned until dusk and the other can't die until dusk."
   },
   {
     "id": "sovereign",
@@ -386,7 +386,7 @@
     "edition": "jackandthebeanstalk",
     "firstNight": 0,
     "firstNightReminder": "",
-    "otherNight": 9,
+    "otherNight": 6,
     "otherNightReminder": "",
     "reminders": ["Dead"],
     "remindersGlobal": [],
