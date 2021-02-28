@@ -49,7 +49,7 @@
     "setup": 0,
     "name": "Clove Merchant",
     "team": "townsfolk",
-    "ability": "Each night, choose a player: if they are targeted by a minion, the minion dies and Dracula is poisoned. If Dracula targets the player, they are protected."
+    "ability": "Each night, choose a player (not yourself): if they are targeted by a minion, the minion dies and Dracula is poisoned. If Dracula targets the player, they are protected."
   },
   {
     "id": "Paranoid",
@@ -79,7 +79,7 @@
     "setup": 0,
     "name": "Priest",
     "team": "townsfolk",
-    "ability": "Each night, you may choose a player: they are cleared of any marks and can not receive marks that night."
+    "ability": "Each night, you may choose a player (not yourself): they are cleared of any marks and can not receive marks that night."
   },
   {
     "id": "Immune",
@@ -139,7 +139,7 @@
     "setup": 0,
     "name": "Protector",
     "team": "townsfolk",
-    "ability": "Each night, choose two players: they are protected from receiving marks that night. Once per game, publically clear all players of bite marks. That night, they are informed that their mark is removed."
+    "ability": "Each night, choose two players (not yourself): they are protected from receiving marks that night. Once per game, publically clear all players of bite marks. That night, they are informed that their mark is removed."
   },
   {
     "id": "Signalar",
@@ -154,7 +154,7 @@
     "setup": 0,
     "name": "Signalar",
     "team": "townsfolk",
-    "ability": "Each night*, choose two players, if good aligned, they are informed that they were chosen."
+    "ability": "Each night*, choose two players, if both good aligned, they are informed that they were chosen."
   },
   {
     "id": "Exposer",
