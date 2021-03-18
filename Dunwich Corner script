@@ -409,7 +409,7 @@
     "setup": 0,
     "name": "P. I. result",
     "team":"fabled",
-    "ability": "For night order"
+    "ability": "For night order."
   },
   {
     "id": "Yig Death",
@@ -423,7 +423,7 @@
     "setup": 0,
     "name": "Yig Death",
     "team": "fabled",
-    "ability": "For night order"
+    "ability": "For night order."
   }
 
 ]
