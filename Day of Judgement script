@@ -111,7 +111,7 @@
     "setup": 0,
     "name": "Dowser",
     "team": "townsfolk",
-    "ability": "Each night, choose three players. You learn if one of them is evil. If more are evil, you become drunk."
+    "ability": "Each night, choose three players. You learn if one of them is evil. If you choose more than one evil player, you're drunk for the rest of the game."
   },
   {
     "id": "Ex-Con",
@@ -433,7 +433,4 @@
 {"id": "Saint"}
 ]
 
-  
-
-  
   
