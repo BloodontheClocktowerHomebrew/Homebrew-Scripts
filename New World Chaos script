@@ -300,7 +300,7 @@
     "setup": false,
     "name": "Comintern",
     "team": "demon",
-    "ability": "Each night*, a Comintern dies. If Good drops the Bomb, Good wins. If only Evil lives, Evil wins. You register as a Minion too. Conminterm doesn't know each other but has same bluffs. [Everyone is Comintern except two Good players]"
+    "ability": "Each night*, a Comintern dies. If Good drops the Bomb, Good wins. If only Evil lives, Evil wins. You register as a Minion too. [Everyone is Comintern except two Good players]"
   },{"id": "draconis",
     "image": "https://i.ibb.co/LSB6Fs0/draconis.png",
     "edition": "custom",
