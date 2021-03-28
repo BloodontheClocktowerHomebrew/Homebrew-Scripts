@@ -1,66 +1,80 @@
+
 [
-
     {
-        "id": "Townsfolk amnesiac",
+		"id": "_meta",
+		"name": "All Amnesiacs",
+		"author": "Someone",
+		"logo": "https://i.postimg.cc/nLwp4zdm/amnesiac.png"
+	},
+     {
+        "id": "Townsfolk Amnesiac",
         "image": "https://raw.githubusercontent.com/bra1n/townsquare/main/src/assets/icons/amnesiac.png",
+        "edition": "custom",
+        "firstNight": 1,
+        "firstNightReminder": "{}",
+        "otherNight": 0,
+        "otherNightReminder": "{}",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": {},
         "name": "Townsfolk Amnesiac",
-        "edition": "",
         "team": "townsfolk",
-        "firstNight": 6,
-        "firstNightReminder": "Decide the Amnesiac's entire ability. If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
-        "otherNight": 3,
-        "otherNightReminder": "If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
-        "reminders": [],
-        "remindersGlobal": ["Good"],
-        "setup": false,
         "ability": "You do not know what your ability is. Each day, privately guess what it is: you learn how accurate you are."
-      },
-
-      {
-        "id": "Outsider amnesiac",
-        "image": "https://i.postimg.cc/C5yHjxTs/outsideramnesiac.png",
+    },
+    {
+        "id": "Outsider Amnesiac",
+        "image": "https://i.postimg.cc/Xq4GMRy4/amnesiac.png",
+        "edition": "custom",
+        "firstNight": 1,
+        "firstNightReminder": "{}",
+        "otherNight": 0,
+        "otherNightReminder": "{}",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": {},
         "name": "Outsider Amnesiac",
-        "edition": "",
         "team": "outsider",
-        "firstNight": 6,
-        "firstNightReminder": "Decide the Amnesiac's entire ability. If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
-        "otherNight": 3,
-        "otherNightReminder": "If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
-        "reminders": [],
-        "remindersGlobal": ["Good"],
-        "setup": false,
         "ability": "You do not know what your ability is. Each day, privately guess what it is: you learn how accurate you are."
-      },
-      {
-        "id": "Minion amnesiac",
-        "image": "https://i.postimg.cc/k4YBWj0N/minionhamnesiac.png",
+    },
+    {
+        "id": "Minion Amnesiac",
+        "image": "https://i.postimg.cc/d09cHgv8/amnesiacminion.png",
+        "edition": "custom",
+        "firstNight": 1,
+        "firstNightReminder": "{}",
+        "otherNight": 0,
+        "otherNightReminder": "{}",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": {},
         "name": "Minion Amnesiac",
-        "edition": "",
         "team": "minion",
-        "firstNight": 6,
-        "firstNightReminder": "Decide the Amnesiac's entire ability. If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
-        "otherNight": 3,
-        "otherNightReminder": "If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
-        "reminders": [],
-        "remindersGlobal": ["Evil"],
-        "setup": false,
         "ability": "You do not know what your ability is. Each day, privately guess what it is: you learn how accurate you are."
-      },
-      {
-        "id": "Demon amnesiac",
-        "image": "https://i.postimg.cc/0NBCyCV3/demonamnesiac.png",
+    },
+    {
+        "id": "Demon Amnesiac",
+        "image": "https://i.postimg.cc/zvvNR7sT/amnesiacdemon.png",
+        "edition": "custom",
+        "firstNight": 1,
+        "firstNightReminder": "{}",
+        "otherNight": 0,
+        "otherNightReminder": "{}",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": {},
         "name": "Demon Amnesiac",
-        "edition": "",
         "team": "demon",
-        "firstNight": 6,
-        "firstNightReminder": "Decide the Amnesiac's entire ability. If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
-        "otherNight": 3,
-        "otherNightReminder": "If the Amnesiac's ability causes them to wake tonight: Wake the Amnesiac and run their ability.",
-        "reminders": [],
-        "remindersGlobal": ["Evil"],
-        "setup": false,
         "ability": "You do not know what your ability is. Each day, privately guess what it is: you learn how accurate you are."
+    },
+    {
+        "team": "fabled",
+        "ability": "The day after you die, and once per game on any day after that, you may visit the Medium to make a guess about your Amnesiac ability.",
+        "id": "medium",
+        "name": "Medium",
+        "image": "https://i.ibb.co/zsSY6F4/crystal-ball.png",
+        "remindersGlobal": [
+          "Died last day",
+          "Used"
+        ]
       }
-
-
 ]
