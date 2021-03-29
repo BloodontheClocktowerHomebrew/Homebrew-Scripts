@@ -3,11 +3,12 @@
     {
 		"id": "_meta",
 		"name": "Alone in the Woods",
-		"author": "Uncleeurope and MiX"
+		"author": "Uncleeurope and MiX",
+        "logo" : "https://i.postimg.cc/MGkC2RgD/forest-camp.png"
 	  },
     {
     "id": "Sympathizer",
-    "image": "https://i.postimg.cc/8zvV7BgR/backstab.png",
+    "image": "https://i.postimg.cc/vZwJCfJv/backstab.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "{}",
@@ -22,7 +23,7 @@
     },
     {
         "id": "Nerd",
-        "image": "https://i.postimg.cc/8cYq5syX/book-cover.png",
+        "image": "https://i.postimg.cc/76hdSVzq/book-cover.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -37,7 +38,7 @@
     },
     {
         "id": "Psychic",
-        "image": "https://i.postimg.cc/wMMCgDks/crystal-ball.png",
+        "image": "https://i.postimg.cc/XJPhLCKd/crystal-ball.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -52,7 +53,7 @@
     },
     {
         "id": "Hipster",
-        "image": "https://i.postimg.cc/g0GBGvzk/spectacles.png",
+        "image": "https://i.postimg.cc/Jzm1Zfzm/spectacles.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -67,7 +68,7 @@
     },
     {
         "id": "Token",
-        "image": "https://i.postimg.cc/Y99nWML5/two-coins.png",
+        "image": "https://i.postimg.cc/vB1MGM37/two-coins.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -82,7 +83,7 @@
     },
     {
         "id": "Jock",
-        "image": "https://i.postimg.cc/vHks82k8/american-football-helmet.png",
+        "image": "https://i.postimg.cc/14hdh1jz/american-football-helmet.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -97,7 +98,7 @@
     },
     {
         "id": "Loner",
-        "image": "https://i.postimg.cc/T3gZddnQ/person.png",
+        "image": "https://i.postimg.cc/6Q9Dpw52/person.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -112,7 +113,7 @@
     },
     {
         "id": "Multitasker",
-        "image": "https://i.postimg.cc/9Mm3g6Rb/card-random.png",
+        "image": "https://i.postimg.cc/JhPSygGT/card-random.png",
         "edition": "custom",
         "firstNight": 7,
         "firstNightReminder": "{}",
@@ -127,7 +128,7 @@
     },
     {
         "id": "Cheerleader",
-        "image": "https://i.postimg.cc/MKvwSJsr/acoustic-megaphone.png",
+        "image": "https://i.postimg.cc/wTNKW0Gv/acoustic-megaphone.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -142,7 +143,7 @@
     },
     {
         "id": "Stoner",
-        "image": "https://i.postimg.cc/k5CLD0cC/lighter-1.png",
+        "image": "https://i.postimg.cc/x8bZ41g7/lighter-1.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -157,7 +158,7 @@
     },
     {
         "id": "Teacher",
-        "image": "https://i.postimg.cc/Bn9VwrRF/shiny-apple.png",
+        "image": "https://i.postimg.cc/LsQ2dhB6/shiny-apple.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -172,7 +173,7 @@
     },
     {
         "id": "The Final Girl",
-        "image": "https://i.postimg.cc/h43FM3S8/kitchen-knives.png",
+        "image": "https://i.postimg.cc/Bn5r3tsf/kitchen-knives.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -187,7 +188,7 @@
     },
     {
         "id": "Counselor",
-        "image": "https://i.postimg.cc/QMSYCHCg/sofa-1.png",
+        "image": "https://i.postimg.cc/g02mB3hT/sofa-1.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -203,7 +204,7 @@
 
     {
         "id": "Emo",
-        "image": "https://i.postimg.cc/pr36v4Tg/raining.png",
+        "image": "https://i.postimg.cc/Dwg7gxSG/raining.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -219,7 +220,7 @@
 
     {
         "id": "Cop",
-        "image": "https://i.postimg.cc/4yYSrsJ6/police-badge.png",
+        "image": "https://i.postimg.cc/pVwVXhNm/police-badge.png",
         "edition": "custom",
         "firstNight": 5,
         "firstNightReminder": "{}",
@@ -235,7 +236,7 @@
 
     {
         "id": "Radio Broadcaster",
-        "image": "https://i.postimg.cc/xCT73LhF/pocket-radio.png",
+        "image": "https://i.postimg.cc/2jb8Ddtp/pocket-radio.png",
         "edition": "custom",
         "firstNight": 2,
         "firstNightReminder": "{}",
@@ -251,7 +252,7 @@
 
     {
         "id": "Little Brother",
-        "image": "https://i.postimg.cc/Y9nPnhw2/propeller-beanie.png",
+        "image": "https://i.postimg.cc/SNcSXSqD/propeller-beanie.png",
         "edition": "custom",
         "firstNight": 4,
         "firstNightReminder": "{}",
@@ -267,7 +268,7 @@
 
     {
         "id": "Ghost",
-        "image": "https://i.postimg.cc/d14bb5GY/ghost.png",
+        "image": "https://i.postimg.cc/sfcK3SGc/ghost.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -283,7 +284,7 @@
 
     {
         "id": "Scarerow",
-        "image": "https://i.postimg.cc/gk67sztd/scarecrow.png",
+        "image": "https://i.postimg.cc/hjRMt10C/scarecrow.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -299,7 +300,7 @@
 
     {
         "id": "Zombie",
-        "image": "https://i.postimg.cc/WpyK0FnX/raise-zombie.png",
+        "image": "https://i.postimg.cc/mgq80s1W/raise-zombie.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -315,7 +316,7 @@
 
     {
         "id": "Puppet Master",
-        "image": "https://i.postimg.cc/Xvgm5sHC/puppet.png",
+        "image": "https://i.postimg.cc/NjLdJMMx/puppet.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -332,7 +333,7 @@
 
     {
         "id": "Blob",
-        "image": "https://i.postimg.cc/YC6scXws/slime.png",
+        "image": "https://i.postimg.cc/d3qB8Qpr/slime.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -348,7 +349,7 @@
 
     {
         "id": "Mummy",
-        "image": "https://i.postimg.cc/7YpFrGJf/mummy-head.png",
+        "image": "https://i.postimg.cc/Twj0L57T/mummy-head.png",
         "edition": "custom",
         "firstNight": 6,
         "firstNightReminder": "{}",
@@ -364,7 +365,7 @@
 
     {
         "id": "Killer Clown",
-        "image": "https://i.postimg.cc/mrNfwLDh/clown.png",
+        "image": "https://i.postimg.cc/3J8SG9QV/clown.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -380,7 +381,7 @@
 
     {
         "id": "Frankenstein's Monster",
-        "image": "https://i.postimg.cc/7Lyr0Gqp/frankenstein-creature.png",
+        "image": "https://i.postimg.cc/rprQTP50/frankenstein-creature.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -396,7 +397,7 @@
 
     {
         "id": "Bride Demon",
-        "image": "https://i.postimg.cc/sDBkL9Xk/heart-battery.png",
+        "image": "https://i.postimg.cc/wM0kF8YP/heart-battery.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
