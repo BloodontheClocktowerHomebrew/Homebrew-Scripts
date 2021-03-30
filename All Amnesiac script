@@ -9,9 +9,9 @@
         "id": "Townsfolk Amnesiac",
         "image": "https://raw.githubusercontent.com/bra1n/townsquare/main/src/assets/icons/amnesiac.png",
         "edition": "custom",
-        "firstNight": 1,
+        "firstNight": 2,
         "firstNightReminder": "{}",
-        "otherNight": 0,
+        "otherNight": 2,
         "otherNightReminder": "{}",
         "reminders": [],
         "remindersGlobal": [],
@@ -24,9 +24,9 @@
         "id": "Outsider Amnesiac",
         "image": "https://i.postimg.cc/Xq4GMRy4/amnesiac.png",
         "edition": "custom",
-        "firstNight": 1,
+        "firstNight": 2,
         "firstNightReminder": "{}",
-        "otherNight": 0,
+        "otherNight": 2,
         "otherNightReminder": "{}",
         "reminders": [],
         "remindersGlobal": [],
@@ -39,9 +39,9 @@
         "id": "Minion Amnesiac",
         "image": "https://i.postimg.cc/d09cHgv8/amnesiacminion.png",
         "edition": "custom",
-        "firstNight": 1,
+        "firstNight": 2,
         "firstNightReminder": "{}",
-        "otherNight": 0,
+        "otherNight": 2,
         "otherNightReminder": "{}",
         "reminders": [],
         "remindersGlobal": [],
@@ -54,15 +54,30 @@
         "id": "Demon Amnesiac",
         "image": "https://i.postimg.cc/zvvNR7sT/amnesiacdemon.png",
         "edition": "custom",
-        "firstNight": 1,
+        "firstNight": 2,
         "firstNightReminder": "{}",
-        "otherNight": 0,
+        "otherNight": 2,
         "otherNightReminder": "{}",
         "reminders": [],
         "remindersGlobal": [],
         "setup": {},
         "name": "Demon Amnesiac",
         "team": "demon",
+        "ability": "You do not know what your ability is. Each day, privately guess what it is: you learn how accurate you are."
+    },
+    {
+        "id": "Traveler Amnesiac",
+        "image": "https://i.postimg.cc/Vkw9BhCs/amnesiactraveler.png",
+        "edition": "custom",
+        "firstNight": 1,
+        "firstNightReminder": "{}",
+        "otherNight": 1,
+        "otherNightReminder": "{}",
+        "reminders": [],
+        "remindersGlobal": [],
+        "setup": {},
+        "name": "Traveler Amnesiac",
+        "team": "traveler",
         "ability": "You do not know what your ability is. Each day, privately guess what it is: you learn how accurate you are."
     },
     {
@@ -77,4 +92,15 @@
         ]
       },
       {"id": "Sentinel"}
+,
+      {
+        "team": "fabled",
+        "id": "Night order",
+        "name": "Night order",
+        "image": "https://i.postimg.cc/B64RrpkJ/team-idea.png",
+        "remindersGlobal": [],
+        "ability":      "Night order follows logical pattern except for weird abilites: Drunk/poisoning > Protection > Killing > Info"
+      }
+ 
+
 ]
