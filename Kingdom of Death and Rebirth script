@@ -1,0 +1,313 @@
+[{"id": "_meta",
+  "name": "Kingdom of Death and Rebirth",
+  "author": "VARG",
+  "logo": "https://i.postimg.cc/KjmD9GnJ/bull.png"
+},
+  {
+    "id": "peasant",
+    "image": "https://i.postimg.cc/J0TZPb7z/farmer.png",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": ["Corrupted", "Resurrected"],
+    "setup": false,
+    "name": "Peasant",
+    "team": "townsfolk",
+    "ability": "If your living neighbor dies, they are resurrected that night. You start the game Corrupted."
+  },
+  {
+    "id": "theologian",
+    "image": "https://i.postimg.cc/rFnNJLzN/church.png",
+    "firstNight": 0,
+    "otherNight": 11,
+    "reminders": ["Guessed correct", "Additional resurrected"],
+    "setup": false,
+    "name": "Theologian",
+    "team": "townsfolk",
+    "ability": "At night, if someone was executed, you may guess their character. If correct, that player is resurrected, and one other might be resurrected."
+  },
+  {
+    "id": "midwife",
+    "image": "https://i.postimg.cc/FFPStVm9/stork-delivery.png", 
+    "firstNight": 0,
+    "otherNight": 18,
+    "reminders": ["Resurrected"],
+    "setup": false,
+    "name": "Midwife",
+    "team": "townsfolk",
+    "ability": "If players were resurrected, you learn one of their characters at night."
+  },
+  {
+    "id": "isaac",
+    "image": "https://i.postimg.cc/sx2ZQvPd/sheep.png",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": ["No corruption", "Isaac"],
+    "setup": false,
+    "name": "Isaac",
+    "team": "townsfolk",
+    "ability": "The first time you are killed, you are resurrected the next night as a Good character not currently in play. You do not become corrupted by this resurrection."
+  },
+  {
+    "id": "abraham",
+    "image": "https://i.postimg.cc/1zx6CRSw-/king.png",
+    "firstNight": 3,
+    "otherNight": 9,
+    "reminders": ["Isaac", "Nominated"],
+    "setup": false,
+    "name": "Abraham",
+    "team": "townsfolk",
+    "ability": "At the start of the game, if Isaac is in play, you learn who it is. Once, if you were nominated but not executed, that night, you may select one player, they die."
+  },
+  {
+    "id": "milkmaid",
+    "image": "https://i.postimg.cc/RFB7FSb4/cow.png",
+    "firstNight": 0,
+    "otherNight": 20,
+    "reminders": ["In play"],
+    "setup": false,
+    "name": "Milkmaid",
+    "team": "townsfolk",
+    "ability": "If an Evil player learns a character through their ability, you also learn that character at night. If no Evil players learned characters, you learn a character in play."
+  },
+  {
+    "id": "spiritualist",
+    "image": "https://i.postimg.cc/3r9X8HjQ/fire-silhouette.png",
+    "firstNight": 4,
+    "otherNight": 10,
+    "reminders": ["Corrupted", "Learn"],
+    "setup": false,
+    "name": "Spiritualist",
+    "team": "townsfolk",
+    "ability": "At night*, you may corrupt yourself and choose a player. You learn their alignment, and then you die. You will only wake if you are not corrupted."
+  },
+  {
+    "id": "mourner",
+    "image": "https://i.postimg.cc/0j57Yts4/despair.png",
+    "firstNight": 0,
+    "otherNight": 14,
+    "reminders": ["Corrupted"],
+    "setup": false,
+    "name": "Mourner",
+    "team": "townsfolk",
+    "ability": "At night*, corrupt yourself and choose a player, they are resurrected. You will only wake if you are not corrupted."
+  },
+  {
+    "id": "icecreamman",
+    "image": "https://i.postimg.cc/4NdznFw7/ice-cream-cone.png",
+    "firstNight": 5,
+    "otherNight": 13,
+    "reminders": ["Corrupted"],
+    "setup": true,
+    "name": "Ice Cream Man",
+    "team": "townsfolk",
+    "ability": "Once per game at night, choose three players (not yourself.) You learn the highest number of players who share a character type out of the chosen players. [+1 Outsider] (Townsfolk, Outsider, Minion, Demon). (1,2,3)"
+  },
+  {
+    "id": "apostate",
+    "image": "https://i.postimg.cc/sXmhgph4/prayer-beads.png",
+    "firstNight": 0,
+    "otherNight": 2,
+    "reminders": ["Corrupted"],
+    "setup": false,
+    "name": "Apostate",
+    "team": "townsfolk",
+    "ability": "At night*, choose a player, remove their Corruption. If you die, 1 player becomes corrupted."
+  },
+  {
+    "id": "cheesemaker",
+    "image": "https://i.postimg.cc/52XqKkCd/cheese-wedge.png",
+    "firstNight": 0,
+    "otherNight": 8,
+    "reminders": ["Drunk", "Evil picked"],
+    "setup": false,
+    "name": "Cheesemaker",
+    "team": "townsfolk",
+    "ability": "You start knowing an in-play Townsfolk player and character who starts drunk. Each night*, choose a player. If the player is Evil, the drunk character is no longer drunk."
+  },
+  {
+    "id": "rancher",
+    "image": "https://i.postimg.cc/cLtwBgpd/lasso.png",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": ["Dead ability", "Drunk", "Learn"],
+    "setup": false,
+    "name": "Rancher",
+    "team": "townsfolk",
+    "ability": "Once per game, if an evil player selects you with their ability, they are drunk until dusk. You learn which character targeted you. This ability works even if you are dead."
+  },
+  {
+    "id": "bargainer",
+    "image": "https://i.postimg.cc/ydmTXgSD/body-sw-apping.png",
+    "firstNight": 0,
+    "otherNight": 17,
+    "reminders": ["Corrupted","Drunk"],
+    "setup": false,
+    "name": "Bargainer",
+    "team": "outsider",
+    "ability": "The night after you are executed, you are resurrected, and one player becomes corrupted and drunk."
+  },
+  {
+    "id": "tormentedsoul",
+    "image": "https://i.postimg.cc/Vv4Bpxg1/bottled-shadow.png",
+    "firstNight": 0,
+    "otherNight": 26,
+    "reminders": ["Block", "Ignore Corrupted"],
+    "setup": false,
+    "name": "Tormented Soul",
+    "team": "outsider",
+    "ability": "If you are dead at night, one Townsfolk who would be resurrected is not resurrected, and you are resurrected instead. You can be resurrected even if you are corrupted."
+  },
+  {
+    "id": "convert",
+    "image": "https://i.postimg.cc/vm97bgh0/cherish.png",
+    "firstNight": 2,
+    "otherNight": 1,
+    "reminders": ["Convert","Is Evil"],
+    "setup": false,
+    "name": "Convert",
+    "team": "outsider",
+    "ability": "You start knowing one player. When you learn that player died, that night you become evil, you and the Demon learn each other's identities, and you are counted as a Minion."
+  },
+  {
+    "id": "infirm",
+    "image": "https://i.postimg.cc/d08CzMQX/internal-injury.png",
+    "firstNight": 0,
+    "otherNight": 19,
+    "reminders": ["Corrupted"],
+    "setup": false,
+    "name": "Infirm",
+    "team": "outsider",
+    "ability": "If either of your neighbors becomes corrupted, you might die. You start corrupted. When you die, another player becomes corrupted."
+  },
+  {
+    "id": "minotaur",
+    "image": "https://i.postimg.cc/pTRjv0pd/minotaur.png",
+    "firstNight": 0,
+    "otherNight": 3,
+    "reminders": ["Kill"],
+    "setup": false,
+    "name": "Minotaur",
+    "team": "minion",
+    "ability": "At night*, you may select a player to kill. If you do, you also die. If the Demon selects you with their ability, it does not affect you, and you are resurrected instead."
+  },
+  {
+    "id": "darkpriest",
+    "image": "https://i.postimg.cc/d1j8Zbzd/cultist.png",
+    "firstNight": 0,
+    "otherNight": 12,
+    "reminders": ["Dead", "Poisoned"],
+    "setup": false,
+    "name": "Dark Priest",
+    "team": "minion",
+    "ability": "At night*, you learn which players are dead. You may then select one dead player. They are resurrected, and you learn their character. They are poisoned."
+  },
+  {
+    "id": "sacrifice",
+    "image": "https://i.postimg.cc/TY4nbqHk/imprisoned.png",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": ["Sacrificed"],
+    "setup": true,
+    "name": "Sacrifice",
+    "team": "minion",
+    "ability": "The first time the Demon dies, the game continues until the next day. That night, the Demon is resurrected and then you die. [+1 Outsider]"
+  },
+  {
+    "id": "sycophant",
+    "image": "https://i.postimg.cc/MHrfyqtc/shadow-follower.png",
+    "firstNight": 0,
+    "otherNight": 15,
+    "reminders": ["Canceled"],
+    "setup": false,
+    "name": "Sycophant",
+    "team": "minion",
+    "ability": "Each night, you wake and learn which players will be resurrected. Select one, they are not resurrected tonight. You learn their character. [-1 Outsider]"
+  },
+  {
+    "id": "churningbelly",
+    "image": "https://i.postimg.cc/6pFVkLr7/charging-bull.png",
+    "firstNight": 0,
+    "otherNight": 6,
+    "reminders": ["Die","Minotaur","Dark Priest","Sacrificed","Sycophant","Revive"],
+    "setup": false,
+    "name": "Churning Belly",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. A minion that dies is resurrected the night after they died as a Minion of your choice, and you learn a good character not in play. They appear as this role to all detection attempts, but continue to act as their original role."
+  },
+  {
+    "id": "burningeyes",
+    "image": "https://i.postimg.cc/jddhPjqj/burning-eye.png",
+    "firstNight": 0,
+    "otherNight": 5,
+    "reminders": ["Die","Poisoned"],
+    "setup": false,
+    "name": "Burning Eyes",
+    "team": "demon",
+    "ability": "Each night*, choose a player: they die. Each night*, you learn which players are corrupted. You can then choose one corrupted player and one non-corrupted player and move the corruption to the second player. Corrupted players are poisoned if they are alive."
+  },
+  {
+    "id": "blackcloud",
+    "image": "https://i.postimg.cc/wxX7nBZH/twirl-center.png",
+    "firstNight": 6,
+    "otherNight": 4,
+    "reminders": ["Die","Poisoned"],
+    "setup": false,
+    "name": "Black Cloud",
+    "team": "demon",
+    "ability": "One townsfolk start poisoned. Each night, you can choose a player to corrupt. The first time you die, you remain alive but appear dead. You cannot be resurrected from this state. [-1 Outsider]"
+  },
+  {
+    "id": "glorioushorn",
+    "image": "https://i.postimg.cc/SQGrn9h5/bull-horns.png",
+    "firstNight": 0,
+    "otherNight": 7,
+    "reminders": ["Die"],
+    "setup": false,
+    "name": "Glorious Horn",
+    "team": "demon",
+    "ability": "Each night*, choose a player, they die. If you chose a corrupted player, you may select a second player, they die."
+  },
+  {
+    "id": "gatekeeper",
+    "image": "https://i.postimg.cc/k52ypMBy/gate.png",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": ["Gatekeeper"],
+    "setup": false,
+    "name": "Gatekeeper",
+    "team": "traveler",
+    "ability": "You may speak to the Storyteller privately during the day. That day, no one may be nominated for execcution."
+  },
+  {
+    "id": "Jury",
+    "image": "https://i.postimg.cc/wBnk8KNY/life-in-the-balance.png",
+    "firstNight": 1,
+    "otherNight": 1,
+    "reminders": ["Corrupted"],
+    "setup": false,
+    "name": "Jury",
+    "team": "traveler",
+    "ability": "Each night, you may select two people. If only one of them is corrupted, they lose the corruption. If not, one living player is now corrupted."
+  },
+  {
+    "id": "Dark God Khalazir",
+    "image": "https://i.postimg.cc/KjmD9GnJ/bull.png",
+    "remindersGlobal": ["Corrupted"],
+    "setup": false,
+    "name": "Dark God Khalazhir",
+    "team": "fabled",
+    "ability": "If you are ressurrected, you become 'corrupted.'  Only the Storyteller can see these marks. During the day, if all Good players are dead or corrupted, evil wins. You cannot be corrupted if you are corrupted already. Corrupted players cannot be resurrected."
+  },
+  {
+    "id": "Ressurection",
+    "image": "https://i.postimg.cc/9Fr7cwFy/yin-yang.png",
+    "otherNight": 16,
+    "remindersGlobal": ["Corrupted"],
+    "setup": false,
+    "name": "Resurrection",
+    "team": "fabled",
+    "ability": "DO NOT USE THIS CHARACTER!!! Ressurection order is as follows: Acolyte, Bargainer, Sacrifice, CHurning Belly, Minotaur, Dark Priest, Isaac, Mourner, Theologian, Peasant. These take place after Ice Cream Man, Mourner, and Sycophant but before Bargainer, Midwife, Infirm, and Milkmaid."
+  }
+]
+
+
