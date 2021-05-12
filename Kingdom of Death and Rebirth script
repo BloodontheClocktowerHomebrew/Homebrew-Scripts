@@ -145,7 +145,7 @@
     "setup": false,
     "name": "Jester",
     "team": "townsfolk",
-    "ability": "If the Demon kills you, all evil players are drunk until dusk, and you are resurrected the night after your death."
+    "ability": "If you die at night, all evil players are drunk until dusk, and you are resurrected the night after your death."
   },
 
   {
@@ -315,7 +315,7 @@
     "id": "Ressurection",
     "image": "https://i.postimg.cc/9Fr7cwFy/yin-yang.png",
     "otherNight": 16,
-    "remindersGlobal": ["Corrupted"],
+    "remindersGlobal": ["Resurrected"],
     "setup": false,
     "name": "Resurrection",
     "team": "fabled",
