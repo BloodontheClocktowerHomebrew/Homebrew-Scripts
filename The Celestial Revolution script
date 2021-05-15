@@ -376,6 +376,22 @@
       }, 
 
       {
+        "id": "Uke Mochi",
+        "image": "https://i.postimg.cc/4dhw9wBC/circling-fish.png",
+        "edition": "custom",
+        "firstNight": 5,
+        "firstNightReminder": "",
+        "otherNight": 0,
+        "otherNightReminder": "",
+        "reminders": ["Known", "Not Mad", "Die tonight"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Uke Mochi",
+        "team": "demon",
+        "ability": "[Sun] You start knowing a Townsfolk. If you are not mad about being that character you might die at night."
+      }, 
+
+      {
         "id": "Khonsu",
         "image": "https://i.postimg.cc/zGMVC4L9/bird-mask-1.png",
         "edition": "custom",
@@ -391,6 +407,22 @@
         "ability": "[Moon] Each night*, choose a player, they die. Moon Knight's closest clockwise Townsfolk neighbor is poisoned. You learn if Moon Knight's ability triggers. [+1 Moon Knight Outsider]"
       }, 
 
+      {
+        "id": "Moon Knight",
+        "image": "https://i.postimg.cc/26gDmHXV/electrical-crescent.png",
+        "edition": "custom",
+        "firstNight": 4,
+        "firstNightReminder": "",
+        "otherNight": 2,
+        "otherNightReminder": "",
+        "reminders": ["Known", "Executed"],
+        "remindersGlobal": [],
+        "setup": false,
+        "name": "Moon Knight",
+        "team": "demon",
+        "ability": "[Moon] You start knowing a player. If they are executed, you turn evil, if they die at night, one of their living neighbors dies as well, even if you are dead."
+      },
+
 
       {
         "id": "Sun",
@@ -400,8 +432,8 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
-        "remindersGlobal": ["Sun"],
+        "reminders": ["Sun"],
+        "remindersGlobal": [],
         "setup": false,
         "name": "Sun",
         "team": "fabled",
@@ -416,8 +448,8 @@
         "firstNightReminder": "",
         "otherNight": 0,
         "otherNightReminder": "",
-        "reminders": [],
-        "remindersGlobal": ["Moon"],
+        "reminders": ["Moon"],
+        "remindersGlobal": [],
         "setup": false,
         "name": "Moon",
         "team": "fabled",
@@ -431,44 +463,14 @@
         "firstNightReminder": "",
         "otherNight": 1,
         "otherNightReminder": "",
-        "reminders": [],
-        "remindersGlobal": ["Ritual", "Poisoned"],
+        "reminders": ["Ritual", "Poisoned"],
+        "remindersGlobal": [],
         "setup": false,
         "name": "Rituals",
         "team": "fabled",
         "ability": "Token reminder"
       }, 
-      {
-        "id": "Uke Mochi",
-        "image": "https://i.postimg.cc/4dhw9wBC/circling-fish.png",
-        "edition": "custom",
-        "firstNight": 5,
-        "firstNightReminder": "",
-        "otherNight": 0,
-        "otherNightReminder": "",
-        "reminders": ["Known", "Not Mad", "Die tonight"],
-        "remindersGlobal": [],
-        "setup": false,
-        "name": "Uke Mochi",
-        "team": "fabled",
-        "ability": "[Sun] You start knowing a Townsfolk. If you are not mad about being that character you might die at night."
-      }, 
 
-      {
-        "id": "Moon Knight",
-        "image": "https://i.postimg.cc/26gDmHXV/electrical-crescent.png",
-        "edition": "custom",
-        "firstNight": 4,
-        "firstNightReminder": "",
-        "otherNight": 2,
-        "otherNightReminder": "",
-        "reminders": ["Known", "Executed"],
-        "remindersGlobal": [],
-        "setup": false,
-        "name": "Moon Knight",
-        "team": "fabled",
-        "ability": "[Moon] You start knowing a player. If they are executed, you turn evil, if they die at night, one of their living neighbors dies as well, even if you are dead."
-      },
       {
         "id": "Learn result",
         "image": "https://i.postimg.cc/sXfdvgjy/whirlwind.png",
