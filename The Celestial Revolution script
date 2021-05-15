@@ -343,6 +343,23 @@
       }, 
 
       {
+        "id": "Rituals",
+        "image": "https://i.postimg.cc/4xDjFKqT/sun-priest.png",
+        "edition": "custom",
+        "firstNight": 0,
+        "firstNightReminder": "",
+        "otherNight": 1,
+        "otherNightReminder": "",
+        "reminders": [],
+        "remindersGlobal": ["Ritual", "Poisoned"],
+        "setup": false,
+        "name": "Rituals",
+        "team": "demon",
+        "ability": "Token reminder"
+      }, 
+      
+
+      {
         "id": "Ra",
         "image": "https://i.postimg.cc/VsDs92pD/great-pyramid.png",
         "edition": "custom",
@@ -357,8 +374,7 @@
         "team": "demon",
         "ability": "[Sun] Each night*, choose 2 players, they die and a player wakes and learns something true."
       },
-
-      
+  
       {
         "id": "Tsukuyomi",
         "image": "https://i.postimg.cc/fR0wNyLr/kusarigama.png",
@@ -454,22 +470,7 @@
         "name": "Moon",
         "team": "fabled",
         "ability": "Token reminder"
-      }, 
-      {
-        "id": "Rituals",
-        "image": "https://i.postimg.cc/4xDjFKqT/sun-priest.png",
-        "edition": "custom",
-        "firstNight": 0,
-        "firstNightReminder": "",
-        "otherNight": 1,
-        "otherNightReminder": "",
-        "reminders": ["Ritual", "Poisoned"],
-        "remindersGlobal": [],
-        "setup": false,
-        "name": "Rituals",
-        "team": "fabled",
-        "ability": "Token reminder"
-      }, 
+      },
 
       {
         "id": "Learn result",
