@@ -41,14 +41,14 @@
     "edition": "custom",
     "firstNight": 6,
     "firstNightReminder": "",
-    "otherNight": 0,
+    "otherNight": 15,
     "otherNightReminder": "",
     "reminders": [],
     "remindersGlobal": [],
     "setup": 0,
     "name": "Quartermaster",
     "team": "townsfolk",
-    "ability": "You start knowing how many characters of each type are in play."
+    "ability": "Each night, you learn how many good players are alive."
   },
   {
     "id": "Engineer",
@@ -88,12 +88,12 @@
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": ["Evil Drunk"],
+    "reminders": ["Nominated", "Drunk"],
     "remindersGlobal": [],
     "setup": 0,
     "name": "Security Chef",
     "team": "townsfolk",
-    "ability": "When a Minion you nominated dies by execution, evil players are drunk until dawn."
+    "ability": "Minions you nominate are drunk until dawn."
   },
   {
     "id": "Redshirt",
@@ -141,7 +141,7 @@
     "ability": "Each night*, choose a player. If they die tonight, you swap characters with them."
   },
   {
-    "id": "Janitor",
+    "id": "Nurse",
     "image": "https://i.postimg.cc/vm8vsM0T/janitor-good.png",
     "edition": "custom",
     "firstNight": 5,
@@ -151,9 +151,9 @@
     "reminders": ["Chosen Townsfolk"],
     "remindersGlobal": [],
     "setup": 0,
-    "name": "Janitor",
+    "name": "Nurse",
     "team": "townsfolk",
-    "ability": "Each night, choose a player. Chosen Townsfolk are told they were chosen."
+    "ability": "Each night, choose a player. Chosen Townsfolk are told they were injected."
   },
   {
     "id": "Armorer",
@@ -274,7 +274,7 @@
     "setup": 0,
     "name": "Traitor",
     "team": "minion",
-    "ability": "You might registered as good. During the day, you may publicly choose a player. Once per game, they might die."
+    "ability": "You might register as good. During the day, you may publicly choose a player. They might die."
   },
   {
     "id": "Brain Leech",
@@ -319,7 +319,7 @@
     "setup": 0,
     "name": "Probe",
     "team": "minion",
-    "ability": "Each night, choose a player. They are poisoned until dusk. Chosen Townsfolk are told they were chosen."
+    "ability": "Each night, choose a player. They are poisoned until dusk. Chosen Townsfolk are told they were injected."
   },
 
   {
@@ -380,7 +380,7 @@
     "setup": 0,
     "name": "Crawler",
     "team": "demon",
-    "ability": "Each night*, you may choose a player. If you do not, all chosen players die. Chosen players are poisoned."
+    "ability": "Each night*, you may choose a player or kill all chosen players. Chosen Townsfolk are poisoned and told they were injected."
   },
 
   {
