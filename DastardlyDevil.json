@@ -1,0 +1,399 @@
+[
+
+  {
+    "id": "_meta",
+    "name": "Dastardly Devil",
+    "author": "Fatal",
+    "logo":  "https://i.postimg.cc/zfvGymjK/evil-fork.png"
+  },
+  { 
+    "id": "trickster",
+    "image": "https://i.imgur.com/5AZ2xMI.png",
+    "name": "Trickster",
+    "edition":"Dastardly Devil",
+    "team": "townsfolk",
+    "otherNight": 12,
+    "otherNightReminder": ":eye: Register alive if die :eye:",
+    "reminders": ["Alive"],
+    "setup": false,
+    "ability": "The first time you are targeted by a Demon, you live but register as dead, and may vote normally."
+  },
+
+  { 
+    "id": "soothsayer",
+    "image": "https://i.imgur.com/xYi5409.png",
+    "name": "Soothsayer",
+    "edition":"Dastardly Devil",
+    "team": "townsfolk",
+    "firstNight": 6,
+    "firstNightReminder": ":eye: Show the Soothsayer the in-play Demon character token :eye-slash:",
+    "otherNight": 4,
+    "otherNightReminder": ":eye: The Soothsayer points to a player. If they are the Demon, they choose them tonight. :eye-slash:",
+    "setup": false,
+    "ability": "You start knowing an in-play Demon. Each night*, choose a player: if they are a Demon, they choose you tonight."
+},
+
+{ 
+  "id": "sister",
+  "image": "https://i.imgur.com/V2Goqqj.png",
+  "name": "Sister",
+  "edition":"Dastardly Devil",
+  "team": "townsfolk",
+  "firstNight": 2,
+  "firstNightReminder": ":eye: Show the Sister as one of the Demon's minions. :eye-slash:",
+  "reminders": ["Good", "Evil"],
+  "setup": true,
+  "ability": "One evil player, and yourself, register falsely to the Demon on the first night."
+},
+
+{ 
+  "id": "chaplain",
+  "image": "https://i.imgur.com/yYg5MbW.png",
+  "name": "Chaplain",
+  "edition":"Dastardly Devil",
+  "team": "townsfolk",
+  "firstNight": 13,
+  "firstNightReminder": ":eye: Point to two players and they learn if they share the same character type or alignment. Alternate between nights :eye:",
+  "otherNight": 13,
+  "otherNightReminder": ":eye: Point to two players and they learn if they share the same character type or alignment. Alternate between nights :eye:",
+  "reminders": ["Devoted"],
+  "setup": true,
+  "ability": "Each night, choose two players: you learn if they share the same character type. On alternate nights, 'character type' changes to 'alignment'."
+},
+
+{ 
+  "id": "mork",
+  "image": "https://i.imgur.com/qNcCsYJ.png",
+  "name": "Mork",
+  "edition":"Dastardly Devil",
+  "team": "townsfolk",
+  "otherNight": 20,
+  "otherNightReminder": ":eye: Mork is shown the token of the first character to change alignments during the night. :eye-slash:",
+  "reminders": ["Drunk"],
+  "setup": false,
+  "ability": "Each night*, you learn the character of the first player to have their alignment changed. If no alignments changed during the night, you become drunk until dusk instead."
+},
+
+{ 
+  "id": "gork",
+  "image": "https://i.imgur.com/eeWw7yx.png",
+  "name": "Gork",
+  "edition":"Dastardly Devil",
+  "team": "townsfolk",
+  "otherNight": 21,
+  "otherNightReminder": ":eye: Point to a player who has had their ability malfunction during the night. :eye-slash:",
+  "setup": false,
+  "ability": "Each night*, you learn the first player to have their ability malfunction. Anytime your ability would malfunction, your alignment is changed instead."
+},
+
+{ 
+  "id": "lecher",
+  "image": "https://i.imgur.com/bhdlIcu.png",
+  "name": "Lecher",
+  "edition":"Dastardly Devil",
+  "team": "townsfolk",
+  "otherNight": 19,
+  "otherNightReminder": ":eye: The Lecher points to a player. Show them a character token of a player targeted by the player that the Lecher pointed at. :eye-slash:",
+  "setup": false,
+  "ability": "Once per game, at night*, choose a player; learn a character that their ability has interacted with, if any."
+},
+  { 
+        "id": "patron",
+        "image": "https://i.imgur.com/VnN2rIO.png",
+        "name": "Patron",
+        "edition":"Dastardly Devil",
+        "team": "townsfolk",
+        "firstNight": 8,
+        "firstNightReminder": ":eye: Show the finger signal (0, 1, 2, etc) for the steps from the nearest alive evil players. :eye-slash:",
+        "otherNight": 15,
+        "otherNightReminder": ":eye: Show the finger signal (0, 1, 2, etc) for the steps from the nearest alive evil players. :eye-slash:",
+        "reminders": ["Further", "Closer"],
+        "setup": false,
+        "ability": "Each night, you learn how many steps you are from the nearest alive evil player. The Demon registers as one seat closer or further than they are (unless they cannot)."
+   },
+
+   { 
+    "id": "barkeeper",
+    "image": "https://i.imgur.com/XpbJ5M7.png",
+    "name": "Barkeeper",
+    "edition":"Dastardly Devil",
+    "team": "townsfolk",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 23,
+    "otherNightReminder": ":eye: If the first player that the Barkeeper spoke to today was evil, add a token to the evil player's grimoire. :eye-slash:",
+    "reminders": ["Token"],
+    "setup": true,
+    "ability": "The first player you whisper each day, if evil, is unknowingly given a token. If all evil players have a token at dawn, good wins."
+  },
+
+  { 
+    "id": "voyeur",
+    "image": "https://i.imgur.com/rJOhrTP.png",
+    "name": "Voyeur",
+    "edition":"Dastardly Devil",
+    "team": "townsfolk",
+    "otherNight": 17,
+    "otherNightReminder": ":eye: Become evil if evil is executed :eye-slash:",
+    "reminders": ["Learn next day", "Change alignment"],
+    "setup": false,
+    "ability": "If a good player you nominated was executed, you may visit the ST the next day to learn something true about that player. Otherwise, if the executed was evil, you become their alignment at night."
+  },
+
+  { 
+    "id": "vagabond",
+    "image": "https://i.imgur.com/I2eLNjd.png",
+    "name": "Vagabond",
+    "edition":"Dastardly Devil",
+    "team": "townsfolk",
+    "otherNight": 18,
+    "otherNightReminder": ":eye: Give them a different character ability on the script. :eye-slash:",
+    "setup": false,
+    "ability": "Each night, you are given the ability of a different character on the script. If you target a player with an ability that is already in-play, you become drunk until dawn."
+  },
+
+  {
+    "id": "apostle",
+    "image": "https://i.imgur.com/j3pSpSZ.png",
+    "edition": "Dastardly Devil",
+    "firstNight": 7,
+    "firstNightReminder": ":eye: The Apostle points to a player. Give the head signal (nod yes, shake no) for whether that player is evil. :eye-slash:",
+    "otherNight": 16,
+    "otherNightReminder": ":eye: The Apostle points to a player. Give the head signal (nod yes, shake no) for whether that player is evil. :eye-slash:",
+    "reminders": ["Drunk"],
+    "setup": false,
+    "name": "Apostle",
+    "team": "townsfolk",
+    "ability": "Each night, choose a player: learn if they are evil. You are drunk if you neighbour an alive evil player."
+  },
+  { 
+    "id": "sir lancelot",
+    "image": "https://i.imgur.com/gs7RKwp.png",
+    "name": "Sir Lancelot",
+    "edition":"Dastardly Devil",
+    "team": "townsfolk",
+    "reminders": ["Given"],
+    "setup": false,
+    "ability": "Each night, you are shown a token that is on the Grimoire."
+  },
+
+
+
+  { 
+    "id": "bard",
+    "image": "https://i.imgur.com/Pyy7Cdr.png",
+    "name": "Bard",
+    "edition":"Dastardly Devil",
+    "team": "outsider",
+    "otherNight": 14,
+    "otherNightReminder": ":eye: If the Bard was reponsible for an execution: Swap the character token of the Bard for a copy of the executed players character, and change their alignment to match that player. Wake the new character. Show the 'You are' card, then the thumb-down 'evil' sign if evil, or thumb-up 'good' sign if good. Show the 'You are' card, then the character token. :eye-slash:",
+    "reminders": ["Drunk"],
+    "setup": false,
+    "ability": "If you were responsible for an execution, you immediately inherit their character and alignment, but learn it at night. If only four players live, you become drunk."
+  },
+
+  { 
+    "id": "prophet",
+    "image": "https://i.imgur.com/DuDsCmz.png",
+    "name": "Prophet",
+    "edition":"Dastardly Devil",
+    "team": "outsider",
+    "otherNight": 10,
+    "otherNightReminder": ":eye: The Prophet might dies if there is an execution occurred during the day. :eye-slash:",
+    "reminders": ["Die"],
+    "setup": false,
+    "ability": "If a player was executed during the day, you might die at night."
+  },
+  { 
+    "id": "estranged",
+    "image": "https://i.imgur.com/kTn1EFy.png",
+    "name": "Estranged",
+    "edition":"Dastardly Devil",
+    "team": "outsider",
+    "firstNight": 5,
+    "firstNightReminder": ":eye: If 7 or more players: Show the Estranged a number of arbitary 'Minion' players equal to the number of Minions in play. Show 3 character tokens of arbitary Good characters. Wake the Demon. Show the Demon's real character token. Show them the Estranged character token. :eye-slash:",
+    "otherNight": 5,
+    "otherNightReminder": ":eye: Allow the Estranged to do the actions of the Demon. If the Estranged becomes evil in the night, swap the character tokens of the Estranged and the Demon. Wake the new Demon. Show the 'You are' card, then the thumb-down evil sign.",
+    "reminders": ["Decoy"],
+    "setup": true,
+    "ability": "You think you are the Demon, but your abilities malfunction. If you would become evil, the Demon switches characters with you. Neither of you learn this. The Demon knows you are in play."
+  },
+ 
+  { 
+    "id": "barmaid",
+    "image": "https://i.imgur.com/GeTkp0f.png",
+    "name": "Barmaid",
+    "edition":"Dastardly Devil",
+    "team": "outsider",
+    "firstNight": 1,
+    "firstNightReminder": ":eye: Add a Drunk token to the grimoire. :eye-slash:",
+    "otherNight": 2,
+    "otherNightReminder": ":eye: Move the Drunk token to a different player. :eye-slash:",
+    "reminders": ["Drunk"],
+    "setup": true,
+    "ability": "During setup, a player is given the “Drunk” token. Each night*, the token is given to a different player. If you die in the night, the token is removed from the game."
+  },
+  
+  { 
+    "id": "the damned",
+    "image": "https://i.imgur.com/ue2kSRC.png",
+    "name": "The Damned",
+    "edition":"Dastardly Devil",
+    "team": "minion",
+    "otherNight": 1,
+    "otherNightReminder": ":eye: Wake the Minion and show them the 'Die' token. If they nod their head, that player dies and is shown the Grimoire. Poison all other players until dusk if they died this way. :eye-slash:",
+    "reminders": ["Die", "Poisoned"],
+    "setup": false,
+    "ability": "Once per game*, at night, you may choose to die: if done, all other players are poisoned until dusk.  If you die this way, you see the Grimoire."
+  },
+  { 
+    "id": "the pickpocket",
+    "image": "https://i.imgur.com/UmhIVSo.png",
+    "name": "The Pickpocket",
+    "edition":"Dastardly Devil",
+    "team": "minion",
+    "otherNight": 22,
+    "otherNightReminder": ":eye: The Pickpocket points at a player. Show them that players character token. If that player has pointed at a player during the night, then point at that player and show them any information that their target learnt of. Wake up the Pickpockets target. Show them the 'This character selected you' card, then the The Pickpocket token. :eye-slash:",
+    "reminders": ["Mad"],
+    "setup": false,
+    "ability": "Each night*, choose a player: you learn their character, and their information (if any). That player cannot be “mad” about their, or your, character tomorrow, otherwise they might be executed."
+  },
+  { 
+    "id": "the cunning",
+    "image": "https://i.imgur.com/623BWM8.png",
+    "name": "The Cunning",
+    "edition":"Dastardly Devil",
+    "team": "minion",
+    "otherNight": 3,
+    "otherNightReminder": ":eye: If the The Cunning has not yet used their ability: the The Cunning either shows a 'no' head signal, or points to a player. If the The Cunning points to a player: wake that player and show them the 'You are' card, then the thumb-down 'evil' sign if that player was an Outsider. :eye-slash:",
+    "setup": true,
+    "ability": "Once per game*, at night, choose a player: if they are an Outsider, they become evil. [+1 Outsider]"
+  },
+  { 
+    "id": "the imposter",
+    "image": "https://i.imgur.com/XO6m1vh.png",
+    "name": "The Imposter",
+    "edition":"Dastardly Devil",
+    "team": "minion",
+    "firstNight": 4,
+    "firstNightReminder": ":eye: The The Imposter points to a player. Place their 'target' markers. :eye-slash:",
+    "otherNight": 3,
+    "otherNightReminder": ":eye: The The Imposter points to a player. Place their 'target' markers. Or, if the The Imposter was executed by a good player, dead players who have the 'target' marker may change alignments. If so, wake those players and show them the 'You are' card, and then the thumb-down 'evil' sign if they are evil, or thumb-up 'good' if they are good. :eye-slash:",
+    "reminders": ["Target"],
+    "setup": false,
+    "ability": "Each night, choose a player. If you are executed by a good player, dead players you have chosen change alignments at night."
+  },
+  { 
+    "id": "fanatic",
+    "image": "https://i.imgur.com/Nrl6580.png",
+    "name": "Fanatic",
+    "edition":"Dastardly Devil",
+    "team": "demon",
+    "otherNight": 6,
+    "otherNightReminder": ":eye: The Fanatic points to a player. That player dies. If a failed nomination occurred during the day, and an evil death vote was used during, that nominated becomes evil. If so: Wake the new evil player. Show the 'You are' card, then the thumb-down 'evil' sign. :eye-slash:",
+    "reminders": ["Die"],
+    "setup": false,
+    "ability": "Each night*, choose a player: they die. If a dead evil player voted on a nomination that did not succeed, that night, the nominated becomes evil."
+  },
+  { 
+    "id": "faithful",
+    "image": "https://i.imgur.com/eJtws8x.png",
+    "name": "Faithful",
+    "edition":"Dastardly Devil",
+    "team": "demon",
+    "otherNight": 8,
+    "otherNightReminder": ":eye: The Faithful points to a player. That player dies. If a Minion was killed this way on the previous night, one of their neighbours becomes evil. If done: Wake that player and show them 'You are' card, and then the thumb-down 'evil' sign. :eye-slash:",
+    "reminders": ["Die"],
+    "setup": false,
+    "ability": "Each night*, choose a player: they die. The first time a minion is killed this way, one of their neighbours becomes evil on the next night."
+  },
+  { 
+    "id": "confessor",
+    "image": "https://i.imgur.com/pc8ewFI.png",
+    "name": "Confessor",
+    "edition":"Dastardly Devil",
+    "team": "demon",
+    "otherNight": 7,
+    "otherNightReminder": ":eye: The Confessor points to a player. That player dies. If a townsfolk nominated the Confessor, and it was the first time the Confessor had been nominated: You may wake that player tonight and show them the 'You are' card, and then the thumb-down 'evil' sign. :eye-slash:",
+    "reminders": ["Die"],
+    "setup": true,
+    "ability": "Each night*, choose a player: they die. The first player to nominate you becomes evil if they are townsfolk. [+1 Outsider]"
+  },
+  { 
+    "id": "revolutionist",
+    "image": "https://i.imgur.com/grhDmZ3.png",
+    "name": "Revolutionist",
+    "edition":"Dastardly Devil",
+    "team": "demon",
+    "otherNight": 9,
+    "otherNightReminder": ":eye: The Revolutionist points to a player. That player dies. If an evil occurred during the day, and the Revolutionist voted on that execution: The Revolutionist points at two players instead. :eye-slash:",
+    "reminders": ["Die"],
+    "setup": false,
+    "ability": "Each night*, choose a player: they die. During the day, if two players of the same alignment nominate, one of them changes alignment at night. Dead players return to their original alignment."
+  },
+
+
+
+  { 
+    "id": "Mistress of Misfortune",
+    "image": "",
+    "name": "Mistress of Misfortune",
+    "edition":"Dastardly Devil",
+    "team": "traveler",
+    "otherNight": 0,
+    "otherNightReminder": ":eye: :eye-slash:",
+    "reminders": [],
+    "setup": false,
+    "ability": "Each day, publicly choose a player: that night, they may choose to reveal their alignment to you. If not, they lose their ability, and you are poisoned, until dawn."
+  },
+
+  { 
+    "id": "Regret",
+    "image": "",
+    "name": "Regret",
+    "edition":"Dastardly Devil",
+    "team": "traveler",
+    "otherNight": 0,
+    "otherNightReminder": ":eye: :eye-slash:",
+    "reminders": [],
+    "setup": false,
+    "ability": "You do not learn your alignment. Each day, the first player nominated cannot be executed if you agree. If you do: switch alignments with them. If just four players live, you lose this ability."
+  },
+
+  { 
+    "id": "Executioner",
+    "image": "",
+    "name": "Executioner",
+    "edition":"Dastardly Devil",
+    "team": "traveler",
+    "otherNight": 0,
+    "otherNightReminder": ":eye: :eye-slash:",
+    "reminders": [],
+    "setup": false,
+    "ability": "Players may choose to die without a death vote: if done, you may visit the ST the next day to learn something true about the team opposite theirs."
+  },
+   { 
+    "id": "Indiscretions",
+    "image": "",
+    "name": "Indicretions",
+    "edition":"Dastardly Devil",
+    "team": "traveler",
+    "otherNight": 0,
+    "otherNightReminder": ":eye: :eye-slash:",
+    "reminders": [],
+    "setup": false,
+    "ability": "Each night, choose a player: they learn your alignment, and may choose to change it. You do not learn players of your team."
+  },
+   { 
+    "id": "Utmost Servitude",
+    "image": "https://i.postimg.cc/63z2DVYf/minions.png",
+    "name": "Utmost Servitude",
+    "edition":"Dastardly Devil",
+    "team": "fabled",
+    "otherNightReminder": ":eye: :eye-slash:",
+    "firstNight": 1,
+    "reminders": [],
+    "setup": false,
+    "ability": "Minions learn the Demon's bluffs instead."
+  }
+]
