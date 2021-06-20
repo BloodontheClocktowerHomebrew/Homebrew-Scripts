@@ -58,7 +58,7 @@
   "otherNightReminder": ":eye: Point to two players and they learn if they share the same character type or alignment. Alternate between nights :eye:",
   "reminders": ["Devoted"],
   "setup": true,
-  "ability": "Each night, choose two players: you learn if they share the same character type. On alternate nights, 'character type' changes to 'alignment'."
+  "ability": "Each night, choose two players (not yourself): you learn if they share the same character type. On alternate nights, 'character type' changes to 'alignment'."
 },
 
 { 
@@ -109,7 +109,7 @@
         "otherNightReminder": ":eye: Show the finger signal (0, 1, 2, etc) for the steps from the nearest alive evil players. :eye-slash:",
         "reminders": ["Further", "Closer"],
         "setup": false,
-        "ability": "Each night, you learn how many steps you are from the nearest alive evil player. The Demon registers as one seat closer or further than they are (unless they cannot)."
+        "ability": "Each night, you learn how many steps you are from the nearest alive evil player (count like Clockmaker). The Demon registers as one seat closer or further than they are (unless they cannot)."
    },
 
    { 
