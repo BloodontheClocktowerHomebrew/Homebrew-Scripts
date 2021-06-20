@@ -172,6 +172,8 @@
     "name": "Sir Lancelot",
     "edition":"Dastardly Devil",
     "team": "townsfolk",
+    "firstNight": 27,
+    "otherNight": 27,
     "reminders": ["Given"],
     "setup": false,
     "ability": "Each night, you are shown a token that is on the Grimoire."
@@ -214,7 +216,8 @@
     "firstNightReminder": ":eye: If 7 or more players: Show the Estranged a number of arbitary 'Minion' players equal to the number of Minions in play. Show 3 character tokens of arbitary Good characters. Wake the Demon. Show the Demon's real character token. Show them the Estranged character token. :eye-slash:",
     "otherNight": 5,
     "otherNightReminder": ":eye: Allow the Estranged to do the actions of the Demon. If the Estranged becomes evil in the night, swap the character tokens of the Estranged and the Demon. Wake the new Demon. Show the 'You are' card, then the thumb-down evil sign.",
-    "reminders": ["Decoy"],
+    "reminders": ["Decoy", "Estranged", "Switched with real Demon"],
+    "remindersGlobal": ["Decoy", "Estranged", "Switched with real Demon"],
     "setup": true,
     "ability": "You think you are the Demon, but your abilities malfunction. If you would become evil, the Demon switches characters with you. Neither of you learn this. The Demon knows you are in play."
   },
