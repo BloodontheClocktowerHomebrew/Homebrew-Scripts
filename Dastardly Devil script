@@ -124,7 +124,7 @@
     "otherNightReminder": ":eye: If the first player that the Barkeeper spoke to today was evil, add a token to the evil player's grimoire. :eye-slash:",
     "reminders": ["Token"],
     "setup": true,
-    "ability": "The first player you whisper each day, if evil, is unknowingly given a token. If all evil players have a token at dawn, good wins."
+    "ability": "The first player you whisper each day, if evil, is unknowingly given a token. If all evil players have a token at dawn, good wins. If you die, you know whether at least one token has been given out."
   },
 
   { 
@@ -285,7 +285,7 @@
     "otherNightReminder": ":eye: The The Imposter points to a player. Place their 'target' markers. Or, if the The Imposter was executed by a good player, dead players who have the 'target' marker may change alignments. If so, wake those players and show them the 'You are' card, and then the thumb-down 'evil' sign if they are evil, or thumb-up 'good' if they are good. :eye-slash:",
     "reminders": ["Target"],
     "setup": false,
-    "ability": "Each night, choose a player. If you are executed by a good player, dead players you have chosen change alignments at night."
+    "ability": "Each night, choose a player. If you are executed by a good player, dead players you have chosen might change alignments at night."
   },
   { 
     "id": "fanatic",
