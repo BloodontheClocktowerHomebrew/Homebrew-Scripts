@@ -3,11 +3,12 @@
     {
         "id": "_meta",
         "name": "A Royal Tragedy",
-        "author": "Aaron"
+        "author": "Aaron",
+        "logo": "https://i.postimg.cc/vTNvkDWX/fleur-de-lys.png"
       },
     {
         "id": "Duke",
-        "image": "https://i.postimg.cc/0jRmxzDp/Duke.png",
+        "image": "https://i.postimg.cc/yd7nSM1h/Duke.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -22,7 +23,7 @@
     },
     {
         "id": "Baker",
-        "image": "https://i.postimg.cc/mrnCXXrp/Baker.png",
+        "image": "https://i.postimg.cc/MG7dH6SK/Baker.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -37,7 +38,7 @@
     },
     {
         "id": "Poet",
-        "image": "https://i.postimg.cc/XqkZbQVb/Poet.png",
+        "image": "https://i.postimg.cc/KzcrYtfJ/Poet.png",
         "edition": "custom",
         "firstNight": 10,
         "firstNightReminder": "{}",
@@ -52,7 +53,7 @@
     },
     {
         "id": "Stablekeep",
-        "image": "https://i.postimg.cc/C5S1mkb6/Stablekeep.png",
+        "image": "https://i.postimg.cc/P5mmzSFS/Stablekeep.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -67,7 +68,7 @@
     },
     {
         "id": "Priest",
-        "image": "https://i.postimg.cc/MHScNhJ5/Priest.png",
+        "image": "https://i.postimg.cc/WzhGGjQZ/Priest.png",
         "edition": "custom",
         "firstNight": 9,
         "firstNightReminder": "{}",
@@ -82,7 +83,7 @@
     },
     {
         "id": "Squire",
-        "image": "https://i.postimg.cc/3xRksXVs/Squire.png",
+        "image": "https://i.postimg.cc/sgFYhkKB/Squire.png",
         "edition": "custom",
         "firstNight": 8,
         "firstNightReminder": "{}",
@@ -97,7 +98,7 @@
     },
     {
         "id": "Courtesan",
-        "image": "https://i.postimg.cc/FF33pxXG/Courtesan.png",
+        "image": "https://i.postimg.cc/NjrNh8CX/Courtesan.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -112,7 +113,7 @@
     },
     {
         "id": "Vestal",
-        "image": "https://i.postimg.cc/j5z2HZn7/Vestal.png",
+        "image": "https://i.postimg.cc/Bv42h2r4/Vestal.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -127,7 +128,7 @@
     },
     {
         "id": "Bard",
-        "image": "https://i.postimg.cc/vB69prgY/Bard.png",
+        "image": "https://i.postimg.cc/PxKybSJg/Bard.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -142,7 +143,7 @@
     },
     {
         "id": "Torturer",
-        "image": "https://i.postimg.cc/xCrqNW8Q/Torturer.png",
+        "image": "https://i.postimg.cc/FKp3w7vc/Torturer.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -157,7 +158,7 @@
     },
     {
         "id": "Jouster",
-        "image": "https://i.postimg.cc/hPnx57Sn/Jouster.png",
+        "image": "https://i.postimg.cc/5ND3mY92/Jouster.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -172,7 +173,7 @@
     },
     {
         "id": "Templar",
-        "image": "https://i.postimg.cc/VN0d6YY4/Templar.png",
+        "image": "https://i.postimg.cc/TwPgxf2s/Templar.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -188,7 +189,7 @@
 
     {
         "id": "Jester",
-        "image": "https://i.postimg.cc/xTPHDTCz/Jester.png",
+        "image": "https://i.postimg.cc/vTBz056c/Jester.png",
         "edition": "custom",
         "firstNight": 7,
         "firstNightReminder": "{}",
@@ -203,7 +204,7 @@
     },
     {
         "id": "Armed Peasant",
-        "image": "https://i.postimg.cc/rps59Xqt/Armed-Peasant.png",
+        "image": "https://i.postimg.cc/ZKQfDsHZ/Armed-Peasant.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -218,7 +219,7 @@
     },
     {
         "id": "Saxon",
-        "image": "https://i.postimg.cc/tC9Z5Q5C/Saxon.png",
+        "image": "https://i.postimg.cc/zDcSJbgF/Saxon.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -233,7 +234,7 @@
     },
     {
         "id": "Phobic",
-        "image": "https://i.postimg.cc/Y9gGXtZj/Phobic.png",
+        "image": "https://i.postimg.cc/8CSmq268/Phobic.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -249,7 +250,7 @@
 
     {
         "id": "Evoker",
-        "image": "https://i.postimg.cc/rwF48X0Y/Evoker.png",
+        "image": "https://i.postimg.cc/BZYNX7dD/Evoker.png",
         "edition": "custom",
         "firstNight": 5,
         "firstNightReminder": "{}",
@@ -264,7 +265,7 @@
     },
     {
         "id": "Maestro",
-        "image": "https://i.postimg.cc/jSg72gyq/Maestro.png",
+        "image": "https://i.postimg.cc/pXmC8YHS/Maestro.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -279,7 +280,7 @@
     },
     {
         "id": "Plague Warden",
-        "image": "https://i.postimg.cc/1RGVw5Dj/Plague-Warden.png",
+        "image": "https://i.postimg.cc/LXykgh0R/Plague-Warden.png",
         "edition": "custom",
         "firstNight": 4,
         "firstNightReminder": "{}",
@@ -294,7 +295,7 @@
     },
     {
         "id": "Slaver",
-        "image": "https://i.postimg.cc/t4Msp1HY/Slaver.png",
+        "image": "https://i.postimg.cc/bNS0dy0c/Slaver.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -310,7 +311,7 @@
 
     {
         "id": "Necro",
-        "image": "https://i.postimg.cc/7LjJM5Bp/Necro.png",
+        "image": "https://i.postimg.cc/mryyRmYP/Necro.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -325,7 +326,7 @@
     },
     {
         "id": "Iscar",
-        "image": "https://i.postimg.cc/4y6c3XQj/Iscar.png",
+        "image": "https://i.postimg.cc/9f5Lc4sn/Iscar.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -340,7 +341,7 @@
     },
     {
         "id": "Multineer",
-        "image": "https://i.postimg.cc/pdmnFfBf/Mutineer.png",
+        "image": "https://i.postimg.cc/T3mcNdhq/Mutineer.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -355,7 +356,7 @@
     },
     {
         "id": "Ragemonger",
-        "image": "https://i.postimg.cc/xTgkpxxG/Ragemonger.png",
+        "image": "https://i.postimg.cc/D0Hq5HTM/Ragemonger.png",
         "edition": "custom",
         "firstNight": 6,
         "firstNightReminder": "{}",
@@ -370,26 +371,10 @@
     },
     {"id":"sentinel"},
 
-    {
-        "id": "Rules",
-        "image": "",
-        "edition": "custom",
-        "firstNight": 0,
-        "firstNightReminder": "{}",
-        "otherNight": 0,
-        "otherNightReminder": "{}",
-        "reminders": [],
-        "remindersGlobal": [],
-        "setup": {},
-        "name": "Rules",
-        "team": "demon",
-        "ability": "_________________________________________________________________________________________________"
-    },
-    
 
     {
         "id": "Bard and Evoker",
-        "image": "",
+        "image": "https://i.postimg.cc/yx8B66kw/Bard-Evoker.png",
         "edition": "custom",
         "firstNight": 0,
         "firstNightReminder": "{}",
@@ -399,9 +384,10 @@
         "remindersGlobal": [],
         "setup": {},
         "name": "Bard and Evoker",
-        "team": "demon",
+        "team": "fabled",
         "ability": "Deliver at the same time. If either the sender or receiver of these abilities dies, no notification will be sent. If the sender is poisoned, statements will be sent, but have no effect or will be false statements. Eg: Choose a player..., ...Mad about..., Someone is..., You are now... "
     }
     
 
 ]
+
