@@ -395,7 +395,7 @@
     "setup": true,
     "name": "Serial Killer",
     "team": "demon",
-    "ability": "You are a separate team from the other evil players; no evil team wins while the other Demon lives. You are safe from the Demon. Each night*, choose a player: they die. [+1 Demon, -1 Minion]"
+    "ability": "You are a separate team from the other evil players; no evil team wins while the other Demon lives. You are safe from the Demon. Each night*, choose a player: they die. When there are two players left alive, the red Demon dies. [+1 Demon -1 Minion]"
   },
 {
     "id": "desperado",
