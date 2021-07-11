@@ -1,7 +1,8 @@
 [{
         "id": "_meta",
         "name": "Something Rotten",
-        "author": "subdog and Sionar"
+        "author": "subdog and Sionar",
+        "logo": "https://i.postimg.cc/mDGg82gY/coronation.png"
       },
 {
     "id": "Majesty",
@@ -384,24 +385,9 @@
   },
 
   
-  {
-    "id": "Something Rotten",
-    "image": "https://i.postimg.cc/SQHkvDv7/Majesty.png",
-    "edition": "custom",
-    "firstNight": 0,
-    "firstNightReminder": "{}",
-    "otherNight": 0,
-    "otherNightReminder": "{}",
-    "reminders": [],
-    "remindersGlobal": [],
-    "setup": {},
-    "name": "Rules",
-    "team": "demon",
-    "ability": "_________________________________________________________________________________________________"
-},
 {
-    "id": "Special rule",
-    "image": "https://i.postimg.cc/BbF93fV5/Pretender.png",
+    "id": "All Mighty",
+    "image": "https://i.postimg.cc/kMLqcgYB/throne-king.png",
     "edition": "custom",
     "firstNight": 0,
     "firstNightReminder": "",
@@ -410,8 +396,8 @@
     "reminders": [],
     "remindersGlobal": [],
     "setup": 0,
-    "name": "Special rule",
-    "team": "demon",
+    "name": "All Mighty",
+    "team": "fabled",
     "ability": "There is always a Majesty, Pretender, or Ysbaddaden in the setup."
   },
 
@@ -427,7 +413,7 @@
     "remindersGlobal": [],
     "setup": 0,
     "name": "Ysbad info",
-    "team": "demon",
+    "team": "ddddemon",
     "ability": "Night order"
   }
 ]
