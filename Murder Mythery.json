@@ -1,0 +1,480 @@
+[
+  {
+    "id": "_meta",
+    "exportTime": "Friday, April 23, 2021 6:21:57 PM",
+    "name": "Murder Mytheries",
+    "author": "Stefanie (Dr. BabyBird)",
+    "logo": "https://www.meyermike.com/botc/murder_mytheries/images/logo.png"
+  },
+  {
+    "id": "apollo",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/apollo.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 30,
+    "otherNightReminder": "Inform Apollo which player(s) will die at night. Apollo may chose to save one of them once per game. (Storyteller note: treat night deaths as delayed until after Apollo gets a chance to use their ability)",
+    "reminders": [],
+    "setup": false,
+    "name": "Apollo",
+    "team": "townsfolk",
+    "ability": "Each night* you learn which players will die that night. Once per game, you may prevent the death of a player of your choice. "
+  },
+  {
+    "id": "argos",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/argos.png",
+    "edition": "custom",
+    "firstNight": 29,
+    "firstNightReminder": "Argos points at a player. Storyteller indicates whether or not they are drunk or poisoned",
+    "otherNight": 29,
+    "otherNightReminder": "Argos points at a player. Storyteller indicates whether or not they are drunk or poisoned",
+    "reminders": [],
+    "setup": false,
+    "name": "Argos",
+    "team": "townsfolk",
+    "ability": "Each night you may choose a player. You learn whether they are drunk/poisoned."
+  },
+  {
+    "id": "artemis",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/artemis.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 28,
+    "otherNightReminder": "Artemis points at an alive player. If they are a minion or good player, they learn their alignment. Minions cannot be executed the next day. If a demon is chosen, Artemis is drunk until tomorrow night. ",
+    "reminders": [
+      "Drunk",
+      "Cannot be executed"
+    ],
+    "setup": false,
+    "name": "Artemis",
+    "team": "townsfolk",
+    "ability": "Each night*, choose an alive player. You learn their alignment. If you chose the demon, you are drunk until tomorrow night. If you chose a minion, they cannot be killed by execution until tomorrow night."
+  },
+  {
+    "id": "asclepius",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/asclepius.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 27,
+    "otherNightReminder": "Asclepius may chose a player every night. That player remains dead but regains their ability until dusk. ",
+    "reminders": [
+      "Reanimated"
+    ],
+    "setup": false,
+    "name": "Asclepius",
+    "team": "townsfolk",
+    "ability": "Each night*, choose a player. This player regains their ability until dusk. "
+  },
+  {
+    "id": "athena",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/athena.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Protected"
+    ],
+    "setup": false,
+    "name": "Athena",
+    "team": "townsfolk",
+    "ability": "If there are 4 or more alive players, the first time your alive neighbor would die, if they are not a minion they survive.  [\u002B1 minion and -0 or -1 outsider] "
+  },
+  {
+    "id": "cassandra",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/cassandra.png",
+    "edition": "custom",
+    "firstNight": 25,
+    "firstNightReminder": "The storyteller tells Cassandra a truth and a lie, but not which is which. ",
+    "otherNight": 25,
+    "otherNightReminder": "The storyteller tells Cassandra a truth and a lie, but not which is which. Cassandra learns which information given to her the night before is true and which is false. ",
+    "reminders": [],
+    "setup": false,
+    "name": "Cassandra",
+    "team": "townsfolk",
+    "ability": "You are \u0022mad\u0022 that you are a townsfolk other than Cassandra or might be executed. Each night the storyteller gives you one truth and one lie. You learn which is which at the start of the next night."
+  },
+  {
+    "id": "Daedalus",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/Daedalus.png",
+    "edition": "custom",
+    "firstNight": 2,
+    "firstNightReminder": "The storyteller visits Daedalus and points to the player with the Icarus role.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "name": "Daedalus",
+    "team": "townsfolk",
+    "ability": "Icarus must be in the game. You start out knowing which player is Icarus. "
+  },
+  {
+    "id": "icarus",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/icarus.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Drunk"
+    ],
+    "setup": false,
+    "name": "Icarus",
+    "team": "townsfolk",
+    "ability": "Each day you may ask the storyteller a question. Either they answer truthfully or you become drunk for the rest of the game. If Daedalus is in the game, they will die tonight. "
+  },
+  {
+    "id": "lachesis",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/lachesis.png",
+    "edition": "custom",
+    "firstNight": 23,
+    "firstNightReminder": "The storyteller visits Lachesis and informs them which player(s) were chosen by an ability that night",
+    "otherNight": 23,
+    "otherNightReminder": "The storyteller visits Lachesis and informs them which player(s) were chosen by an ability that night",
+    "reminders": [],
+    "setup": false,
+    "name": "Lachesis",
+    "team": "townsfolk",
+    "ability": "Each night you learn which players were chosen with an ability that night."
+  },
+  {
+    "id": "medusa",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/medusa.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Nominated Medusa",
+      "Drunk"
+    ],
+    "setup": false,
+    "name": "Medusa",
+    "team": "townsfolk",
+    "ability": "If an evil player nominates you, the demon is drunk until dawn."
+  },
+  {
+    "id": "pandora",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/pandora.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 21,
+    "otherNightReminder": "Pandora is visited by the storyteller at night. If they elect to use their ability, they learn which evil roles are in the game. The storyteller will select one player to be drunk for the remainder of the game. ",
+    "reminders": [
+      "Used"
+    ],
+    "setup": false,
+    "name": "Pandora",
+    "team": "townsfolk",
+    "ability": "Once per game at night *, you may chose to learn which evil roles are in the game. If you do, one player becomes drunk for the rest of the game."
+  },
+  {
+    "id": "pegasus",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/pegasus.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Used",
+      "Drunk"
+    ],
+    "setup": true,
+    "name": "Pegasus",
+    "team": "townsfolk",
+    "ability": "The first time an outsider dies they don\u0027t.  [\u002B0 or \u002B1 outsider], "
+  },
+  {
+    "id": "phoenix",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/phoenix.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 19,
+    "otherNightReminder": "If 3 or fewer players are alive and Phoenix is dead, the storyteller will bring them back to life at the end of the night. ",
+    "reminders": [
+      "Used"
+    ],
+    "setup": false,
+    "name": "Phoenix",
+    "team": "townsfolk",
+    "ability": "Once per game at night, if you are dead and 3 or fewer players live, resurrect tonight."
+  },
+  {
+    "id": "polynices",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/polynices.png",
+    "edition": "custom",
+    "firstNight": 18,
+    "firstNightReminder": "The storyteller visits Polynices at night and informs them of one minion role that is in the game, but not the player with that role",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Dead"
+    ],
+    "setup": false,
+    "name": "Polynices",
+    "team": "townsfolk",
+    "ability": "You start knowing a minion role in the game. When the player with that role dies, you die at night. "
+  },
+  {
+    "id": "aphrodite",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/aphrodite.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 16,
+    "otherNightReminder": "Choose a player that is drunk.",
+    "reminders": [
+      "Bitch"
+    ],
+    "setup": false,
+    "name": "Aphrodite",
+    "team": "outsider",
+    "ability": "When you die, 1 player is drunk from now on."
+  },
+  {
+    "id": "TrojanHorse",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/TrojanHorse.png",
+    "edition": "custom",
+    "firstNight": 3,
+    "firstNightReminder": "Place the \u0022Trojan Horse\u0022 marker. Wake the Trojan Horse and point to the marked player.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Trojan Horse"
+    ],
+    "setup": false,
+    "name": "Trojan Horse",
+    "team": "outsider",
+    "ability": "One player secretly gains the ability \u0022If good would win, evil wins instead\u0022. You start knowing which one."
+  },
+  {
+    "id": "persephone",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/persephone.png",
+    "edition": "custom",
+    "firstNight": 16,
+    "firstNightReminder": "The storyteller visits Persephone and informs them of their role and alignment. ",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "name": "Persephone",
+    "team": "outsider",
+    "ability": "On the first night you learn you are a good player. The storyteller does not visit you again, and each night you switch aligments."
+  },
+  {
+    "id": "sisyphus",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/sisyphus.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Drunk"
+    ],
+    "setup": false,
+    "name": "Sisyphus",
+    "team": "outsider",
+    "ability": "You must vote in all nominations or a good player becomes drunk until dawn."
+  },
+  {
+    "id": "akhlys",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/akhlys.png",
+    "edition": "custom",
+    "firstNight": 14,
+    "firstNightReminder": "Akhlys points at two other players. They are drunk until the next night",
+    "otherNight": 13,
+    "otherNightReminder": "Akhlys points at two other players. They are drunk until the next night",
+    "reminders": [
+      "Poison",
+      "Dead"
+    ],
+    "setup": false,
+    "name": "Akhlys",
+    "team": "minion",
+    "ability": "Each night you choose two other players (not yourself). They are poisoned until tomorrow night, but if they are executed while poisoned with this ability, you die the next night."
+  },
+  {
+    "id": "hermes",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/hermes.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 12,
+    "otherNightReminder": "If a good player nominated the demon today, the storyteller visits Hermes at night. They may chose to swap roles with the demon. The storyteller visits the demon to inform them of the swapped roles. ",
+    "reminders": [
+      "Demon nominated"
+    ],
+    "setup": false,
+    "name": "Hermes",
+    "team": "minion",
+    "ability": "If the demon is nominated by a Good player, you may swap roles with the demon that night."
+  },
+  {
+    "id": "hydra",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/hydra.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Act twice"
+    ],
+    "setup": false,
+    "name": "Hydra",
+    "team": "minion",
+    "ability": "If you are executed, the demon may act twice that night."
+  },
+  {
+    "id": "siren",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/siren.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 10,
+    "otherNightReminder": "If the Siren was executed, the storyteller changes their role with the demon. They resurrect but register as dead. The player with the demon role becomes the Siren and is poisoned for the remainder of the game",
+    "reminders": [
+      "Drunk",
+      "Alive",
+      "Might not die"
+    ],
+    "setup": false,
+    "name": "Siren",
+    "team": "minion",
+    "ability": "If you are executed, you and the demon swap roles at night. You are reanimated and the new Siren is poisoned for the rest of the game. Good players you kill might not die."
+  },
+  {
+    "id": "charon",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/charon.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 9,
+    "otherNightReminder": "Charon points to a player and they die. Charon may also point at a dead minion. If they died by execution and have not been resurrected by Charon before, they are resurrected. ",
+    "reminders": [
+      "Kill"
+    ],
+    "setup": false,
+    "name": "Charon",
+    "team": "demon",
+    "ability": "Each night* choose a player. They die.. You may also pick a minion who died by execution. They are reanimated. Each minion may only be reanimated one time. [-1 outsider] "
+  },
+  {
+    "id": "dionysus",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/dionysus.png",
+    "edition": "custom",
+    "firstNight": 9,
+    "firstNightReminder": "Dionysus points at a player. That player is drunk until tomorrow night. If a good player nominates them the next day, the nominating player is immediately executed. If no executions occurred the previous day, the player chosen the previous night dies and Dionysus is told the role of an alive good player. ",
+    "otherNight": 8,
+    "otherNightReminder": "Dionysus points at a player. That player is drunk until tomorrow night. If a good player nominates them the next day, the nominating player is immediately executed. If no executions occurred the previous day, the player chosen the previous night dies and Dionysus is told the role of an alive good player. ",
+    "reminders": [
+      "Drunk",
+      "Cursed"
+    ],
+    "setup": false,
+    "name": "Dionysus",
+    "team": "demon",
+    "ability": "Each night choose a player. That player is drunk until tomorrow night. If a player chosen with this ability is nominated by a good player, the nominating player is immediately executed. If no execution occured today, the previously chosen player dies and Dionysus learns the role of an alive good player."
+  },
+  {
+    "id": "eris",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/eris.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 7,
+    "otherNightReminder": "Eris points at a player. They die. They point at an additional player and if a duplicated outsider has died for the first time, that player dies. ",
+    "reminders": [
+      "Die"
+    ],
+    "setup": true,
+    "name": "Eris",
+    "team": "demon",
+    "ability": "Each night* choose a player, they die. There is a duplicate of an outsider role. The first time one of the duplicated outsiders dies, Eris may kill an additional player. [\u002B1 or \u002B2 outsider]. "
+  },
+  {
+    "id": "hades",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/hades.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 6,
+    "otherNightReminder": "Hades points at a player, they die. Hades may chose to kill two players. If they do, the storyteller selects one dead good player to resurrect. The player who is resurrected may have died from any cause during the game.  ",
+    "reminders": [
+      "Reanimated"
+    ],
+    "setup": false,
+    "name": "Hades",
+    "team": "demon",
+    "ability": "Each night* choose a player, they die. You may instead choose two players. They die and a good player who has previously died is resurrected. "
+  },
+  {
+    "id": "bonecollector1",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/bonecollector1.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 5,
+    "otherNightReminder": "The Bone Collector either shakes their head no or points at any dead player. If they pointed at any dead player, put the Bone Collector\u0027s \u0027Has Ability\u0027 reminder by the chosen player\u0027s character token. (They may need to be woken tonight to use it.)",
+    "reminders": [
+      "No ability",
+      "Has ability"
+    ],
+    "setup": false,
+    "name": "Bone Collector",
+    "team": "traveler",
+    "ability": "Once per game, at night, choose a dead player: they regain their ability until dusk."
+  },
+  {
+    "id": "harlot1",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/harlot1.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 4,
+    "otherNightReminder": "The Harlot points at any player. Then, put the Harlot to sleep. Wake the chosen player, show them the \u0027This character selected you\u0027 token, then the Harlot token. That player either nods their head yes or shakes their head no. If they nodded their head yes, wake the Harlot and show them the chosen player\u0027s character token. Then, you may decide that both players die.",
+    "reminders": [
+      "Dead"
+    ],
+    "setup": false,
+    "name": "Harlot",
+    "team": "traveler",
+    "ability": "Each night*, choose a living player: if they agree, you learn their character, but you both might die."
+  },
+  {
+    "id": "deviant1",
+    "image": "https://www.meyermike.com/botc/murder_mytheries/images/deviant1.png",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false,
+    "name": "Deviant",
+    "team": "traveler",
+    "ability": "If you were funny today, you can not be exiled."
+  },
+  {
+    "id": "calliope",
+    "edition": "custom",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 17,
+    "otherNightReminder": "The storyteller might visit Calliope and show them the role token of a minion they spoke priviately with today. ",
+    "reminders": [],
+    "setup": false,
+    "name": "Calliope",
+    "team": "townsfolk",
+    "ability": "Each night* you may learn the role of a minion you spoke with privately during the day but not which player has the role. (*potentially weaken by demon knowing Calliope is in the game?)"
+  }
+]
